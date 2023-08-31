@@ -1,0 +1,16 @@
+ctrl + D : select next word along with the selected word
+ctrl + shift + p + wrap : wrap all with an element
+ctrl + t :  search interface / component
+daisy UI
+React does not rerender the component for each state update meaning if we console log after a setstate we will seee the old value of this state batch the updates regroup theme and rerender for performance reasons
+(in dev mode)due to strict mode in main.tsx react render eaxh component twice , the 1st render is used for detecting issues , 2nd render used to update the state
+#array state control : 
+    +adding : use spread operator , new value
+    +deleting : use filter 
+    +updating a value  : use map
+#object state control : 
+    +avoid nested array 
+    +each state changing give a new instance of the object
+    +treat the object as immutable
+    +or use immer and treat the array as mutable
+Zod is a library for validation
